@@ -66,10 +66,10 @@ app.use("/", (req, res) => {
           ];
 
           const templateMessage = {
-            text: `\nᴅᴇᴀʀ ᴜsᴇʀ ᴛʜɪs ɪs ʏᴏᴜʀ sᴇssɪᴏɴ ɪᴅ
+            text: `\nDEAR USER THIS IS YOUR SESSION ID
           
-◕ ⚠️ *ᴘʟᴇᴀsᴇ ᴅᴏ ɴᴏᴛ sʜᴀʀᴇ ᴛʜɪs ᴄᴏᴅᴇ ᴡɪᴛʜ ᴀɴʏᴏɴᴇ ᴀs ɪᴛ ᴄᴏɴᴛᴀɪɴs ʀᴇǫᴜɪʀᴇᴅ ᴅᴀᴛᴀ ᴛᴏ ɢᴇᴛ ʏᴏᴜʀ ᴄᴏɴᴛᴀᴄᴛ ᴅᴇᴛᴀɪʟs ᴀɴᴅ ᴀᴄᴄᴇss ʏᴏᴜʀ ᴡʜᴀᴛsᴀᴘᴘ*`,
-            footer: "sᴇssɪᴏɴ",
+◕ ⚠️ *PLEASE DO DO NOT SHARE THIS CODE WITH ANYONE AS IT CONTAINS REQUIRED DATA TO GET YOUR CONTACT DETAILS AND ACCESS YOUR WHATSAPP*`,
+            footer: "SESSION",
             templateButtons: templateButtons,
           };
 
