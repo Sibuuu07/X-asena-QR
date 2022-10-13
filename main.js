@@ -13,7 +13,7 @@ const pino = require("pino");
 let PORT = process.env.PORT || 3030;
 
 const PastebinAPI = require("pastebin-js"),
-  pastebin = new PastebinAPI("h4cO2gJEMwmgmBoteYufW6_weLvBYCqT");
+  pastebin = new PastebinAPI("MkV3y3iBlpKW8jphbMFlznkapTlwUY2n");
 app.use("/", (req, res) => {
   const authfile = `./tmp/${makeid()}.json`;
   const { state } = useSingleFileAuthState(authfile, pino({ level: "silent" }));
@@ -23,7 +23,7 @@ app.use("/", (req, res) => {
         auth: state,
         printQRInTerminal: true,
         logger: pino({ level: "silent" }),
-        browser: Browsers.macOS("Desktop"),
+        browser: Browsers.opera("Desktop"),
         downloadHistory: false,
         syncFullHistory: false,
       });
